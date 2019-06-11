@@ -1,7 +1,7 @@
 {
   "default": ["nag"],
   "deploy": [
-    "shell:git-is-clean",
+    "shell:git-is-clean --force",
     "shell:check-gitignore",
     "shell:git-checkout-master",
     "build",
