@@ -1,17 +1,507 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <title>Example</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-      <!-- Do not add `link` tags-->
-      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<title>Yurii Yarema Portfolio</title>
 
-      <!-- Do not add `script` tags-->
-      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
-      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
-    </head>
-    <body>
-      <h1>Browser Template</h1>
-    </body>
+	<!-- CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="assets/fonts/fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet" media="screen">
+	<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
+	<link href="assets/css/animate.css" rel="stylesheet">
+
+	<!-- Custom styles CSS -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+
+    <script src="assets/js/modernizr.custom.js"></script>
+
+</head>
+<body>
+
+	<!-- Preloader -->
+
+	<div id="preloader">
+		<div id="status"></div>
+	</div>
+
+	<!-- Home start -->
+
+	<section id="home" class="pfblock-image screen-height">
+        <div class="home-overlay"></div>
+		<div class="intro">
+			<div class="start"><h1 id="firstpage-name">Yurii Yarema</h1></div>
+			<div class="start"><h2 id="firstpage-profession">Software Engineer | Team Developer</h2></div>
+		</div>
+
+        <a href="#services">
+		<div class="scroll-down">
+            <span>
+                <i class="fas fa-angle-down fa-2x"></i>
+            </span>
+		</div>
+        </a>
+
+	</section>
+
+	<!-- Home end -->
+
+	<!-- Navigation start -->
+
+	<header class="header">
+
+		<nav class="navbar navbar-custom" role="navigation">
+
+			<div class="container">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Yurii Yarema</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#services">About Me</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+
+			</div><!-- .container -->
+
+		</nav>
+
+	</header>
+
+	<!-- Navigation end -->
+
+    <!-- Services start -->
+
+	<section id="services" class="pfblock pfblock-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+
+					<div class="pfblock-header wow fadeInUp">
+						<h2 class="pfblock-title">About me</h2>
+						<div class="pfblock-line"></div>
+						<div class="pfblock-subtitle">
+						<div class="clearfix">
+							<div class="content col-sm-6 col-xs-12">
+								<img class="mypic" src="assets/images/profile.png" alt="img01"/>
+							</div>
+							<div class="content col-md-6 col-xs-12 about_me" style="text-align: left;"> I am a full
+								stack web developer, passionate about programming and learning new languages. Prior to
+								coding, I worked as an electrician for a local service company. The part of the job I
+								enjoyed the most was the installation of “Smart Home” products and home automation systems. <br>
+								With my interest in sophisticated gadgets and curiosity for programming, I have decided to make a move
+								towards Web Development to be closer to what I love. I am motivated to work with a team of developers
+								to collaborate and create innovative projects.
+</div>
+				</div>
+			</div>
+					</div>
+
+				</div>
+
+			</div>
+
+
+		</div><!-- .container -->
+	</section>
+
+	<!-- Services end -->
+
+	<!-- Portfolio start -->
+
+	<section id="portfolio" class="pfblock">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="pfblock-header wow fadeInUp">
+						<h2 class="pfblock-title">My works</h2>
+						<div class="pfblock-line"></div>
+					</div>
+
+				</div>
+
+			</div><!-- .row -->
+
+
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-6 col-md-6">
+									<div class="portfolio_div container-fluid">
+                    <div class="grid wow zoomIn">
+											<a  data-toggle="modal" data-target="#portfolio-modal-1">
+                        <figure class="effect-bubba">
+                            <img src="assets/images/portfolio/Weather-App.png" alt="img01"/>
+                            <figcaption>
+                                <h2>Weather App<br><span>Full-stack</span></h2>
+                                <p>Weather app,<br>written with Express.js and React.js.</p>
+                            </figcaption>
+                        </figure>
+												</a>
+                    </div>
+									</div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6">
+									<div class="portfolio_div container-fluid">
+                    <div class="grid wow zoomIn">
+											<a  data-toggle="modal" data-target="#portfolio-modal-2">
+                        <figure class="effect-bubba">
+                            <img src="assets/images/portfolio/ThatHat.png" alt="img01"/>
+                            <figcaption>
+                                <h2>E-Commerce<br><span>Full-stack</span></h2>
+                                <p>Online shop<br>Build with Express.JS<br>Javascript and Handlebars</p>
+                            </figcaption>
+                        </figure>
+											</a>
+                    </div>
+									</div>
+                </div>
+            </div>
+<!--  -->
+<div class="row">
+
+		<div class="col-xs-12 col-sm-6 col-md-6">
+			<div class="portfolio_div container-fluid">
+					<div class="grid wow zoomIn">
+				<a  data-toggle="modal" data-target="#portfolio-modal-3">
+					<figure class="effect-bubba">
+						<img src="assets/images/portfolio/Todo-list.png" style=""alt="img01"/>
+						<figcaption>
+							<h2>Todo list<br><span>Full-stack</span></h2>
+							<p>Keep track of your tasks<br>ad it to the list.<br>Build with Ruby on Rails and JS</p>
+						</figcaption>
+					</figure>
+				</a>
+			</div>
+		</div>
+	</div>
+
+		<div class="col-xs-12 col-sm-6 col-md-6">
+			<div class="portfolio_div container-fluid">
+				<div class="grid wow zoomIn">
+					<a  data-toggle="modal" data-target="#portfolio-modal-4">
+						<figure class="effect-bubba">
+							<img src="assets/images/portfolio/.png" alt="img01"/>
+							<figcaption>
+								<h2>Tic-Tac-Toe Game</h2>
+								<p>JavaScript<br>HTML CSS</p>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+			</div>
+
+		</div>
+</div>
+<!--  -->
+
+		</div><!-- .contaier -->
+
+	</section>
+
+	<!-- Portfolio end -->
+
+    <!-- Skills start -->
+
+    <section class="pfblock pfblock-gray" id="skills">
+
+			<div class="container">
+
+				<div class="row skills">
+
+					<div class="row">
+
+                        <div class="col-sm-6 col-sm-offset-3">
+
+                            <div class="pfblock-header wow fadeInUp">
+                                <h2 class="pfblock-title">My Skills</h2>
+                                <div class="pfblock-line"></div>
+                            </div>
+
+                        </div>
+
+                    </div><!-- .row -->
+<div class="row">
+
+	<div class="col-sm-6 col-md-3 text-center skills">
+		<i class="fab fa-3x fa-html5 skills-logo"></i>
+		<h3 class="skills-name">HTML5</h3>
+	</div>
+	<div class="col-sm-6 col-md-3 text-center">
+		<i class="fab fa-3x fa-css3 skills-logo"></i>
+		<h3 class="skills-name">CSS3</h3>
+	</div>
+	<div class="col-sm-6 col-md-3 text-center">
+		<i class="fab fa-3x fa-js-square skills-logo"></i>
+		<h3 class="skills-name">Javascript</h3>
+	</div>
+	<div class="col-sm-6 col-md-3 text-center">
+		<i class="fas fa-3x fa-gem skills-logo"></i>
+		<h3 class="skills-name">Ruby</h3>
+	</div>
+</div>
+<div class="row">
+
+	<div class="col-sm-6 col-md-3 text-center skills">
+		<i class="fab fa-3x fa-affiliatetheme skills-logo"></i>
+		<h3 class="skills-name">jQuery</h3>
+	</div>
+	<div class="col-sm-6 col-md-3 text-center skills">
+		<i class="fas fa-3x fa-code skills-logo"></i>
+		<h3 class="skills-name">Express.js</h3>
+	</div>
+	<div class="col-sm-6 col-md-3 text-center">
+		<i class="far fa-3x fa-gem skills-logo"></i>
+		<h3 class="skills-name">Ruby on Rails</h3>
+	</div>
+	<div class="col-sm-6 col-md-3 text-center">
+		<i class="fab fa-3x fa-node-js skills-logo"></i>
+		<h3 class="skills-name">Node.js</h3>
+	</div>
+</div>
+
+<div class="row">
+<div class="col-sm-6 col-md-3 text-center">
+	<i class="fas fa-3x fa-database skills-logo"></i>
+	<h3 class="skills-name">MongoDB/SQL</h3>
+</div>
+<div class="col-sm-6 col-md-3 text-center">
+	<i class="fas fa-3x fa-bold skills-logo"></i>
+	<h3 class="skills-name">Bootstrap</h3>
+</div>
+<div class="col-sm-6 col-md-3 text-center">
+	<i class="fas fa-3x fa-code skills-logo"></i>
+	<h3 class="skills-name">Mongoose.js</h3>
+</div>
+<div class="col-sm-6 col-md-3 text-center">
+	<i class="fab fa-3x fa-react skills-logo"></i>
+	<h3 class="skills-name">React.js</h3>
+</div>
+</div>
+				</div><!--End row -->
+
+			</div>
+
+    </section>
+
+    <!-- Skills end -->
+
+	<!-- CallToAction start -->
+
+	<section class="calltoaction" id="contact">
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-12 col-lg-12">
+					<h2 class="wow slideInRight" data-wow-delay=".1s">CONTACT ME</h2>
+					<div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
+						<!-- <i class="fas fa fa-phone-square mr-2"></i> 617-910-8116<br> -->
+						<a class="contact-email" href="mailto:yaremayurii@gmail.com"> <i class="fas fa fa-at mr-2"> Email</i></a>
+					</div>
+
+				</div>
+
+				<div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
+					<a data-toggle="modal" data-target="#modal-agreement" class="btn btn-lg"><i class="far fa fa-file-pdf mr-2"></i>	Resume!</a>
+					<a href="https://github.com/yura85" class="btn btn-lg"><i class="fab fa-github mr-2"></i> GitHub!</a>
+					<a href="https://www.linkedin.com/in/yurii-yarema/" class="btn btn-lg"><i class="fab fa-linkedin mr-2"></i> LinkedIn!</a>
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</section>
+
+	
+	<!-- Footer start -->
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-12">
+
+					<!-- <ul class="social-links">
+						<li><a href="index.html#" class="wow fadeInUp"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-pinterest"></i></a></li>
+						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>
+					</ul> -->
+
+                    <p class="copyright">
+                        Copyright © 2018 Yurii Yarema |  All Rights Reserved
+					</p>
+
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</footer>
+
+	<!-- Footer end -->
+
+	<!-- Scroll to top -->
+
+	<div class="scroll-up">
+		<a href="#home"><i class="fas fa-angle-up"></i></a>
+	</div>
+
+    <!-- Scroll to top end-->
+
+		<!-- Portfolio modal -->
+
+		<!-- portfolio 1 -->
+		<div class="modal fade col-lg-8 col-xs-12 container-fluid" id="portfolio-modal-1" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+			<div class="portfolio-modal-dialog bg-white container-fluid col-xs-8">
+				<button type="button" class="close d-none d-md-block modal-close" data-dismiss="modal" aria-label="Close"><i class="fas fa-2x fa-times" style="color: red;"></i></button>
+
+				<div class="container-fluid text-center">
+					<div class="row">
+						<div class="col-xs-12">
+							<h2 class="text-secondary mb-0" id="modalLabel">Weather App</h2>
+							<hr class="mb-5 col-xs-1 modal_hr" style="float: none; color: black;">
+							<div class="container-fluid">
+							<img class="img-fluid mb-5" src="assets/images/portfolio/Weather-App.png" alt="">
+						</div>
+							<p class="mb-5 modal_p">The Weather app, that allows you check weather condition at any place. In this project i use third party Api from openweathermap.org to get current weather condition. Front End bild with React.js. For Back End I use Express.js<br>Check weather and don't get wet!</p>
+							<a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="https://github.com/yura85/weather-app-client">
+								<i class="fab fa-github"></i>
+								View On GitHub</a>
+								<a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="https://yura85.github.io/weather-app-client/">
+									<i class="fas fa-book"></i>
+									View App</a>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+
+		<!-- portfolio 2 -->
+		<div class="modal fade col-lg-8 col-xs-12 container-fluid" id="portfolio-modal-2" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+			<div class="portfolio-modal-dialog bg-white container-fluid col-xs-8">
+				<button type="button" class="close d-none d-md-block modal-close" data-dismiss="modal" aria-label="Close"><i class="fas fa-2x fa-times" style="color: red;"></i></button>
+
+				<div class="container-fluid text-center">
+					<div class="row">
+						<div class="col-xs-12">
+							<h2 class="text-secondary mb-0" id="modalLabel">That Hat</h2>
+							<hr class="mb-5 col-xs-1 modal_hr" style="float: none; color: black;">
+							<div class="container-fluid">
+							<img class="img-fluid mb-5" src="assets/images/portfolio/ThatHat.png" alt="">
+						</div>
+							<p class="mb-5 modal_p">ThatHat is an e-commerce app that allows a user to purchase items from the store. With checkout integration powered by stripe. Created with HTML, CSS, JavaScript, Bootstrap, Handlebars, Stripe, jQuery and AJAX, connected to an Express API and MongoDB. Project was a good experience of team work. For example pair and mob programming. Group project.</p>
+							<a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="https://github.com/yura85/e-commerce-client">
+								<i class="fab fa-github"></i>
+								View On GitHub</a>
+								<a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="https://team-kray.github.io/e-commerce-client/">
+									<i class="fas fa-book"></i>
+									View App</a>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+
+				<!-- portfolio 3 -->
+				<div class="modal fade col-lg-8 col-xs-12 container-fluid" id="portfolio-modal-3" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+					<div class="portfolio-modal-dialog bg-white container-fluid col-xs-8">
+						<button type="button" class="close d-none d-md-block modal-close" data-dismiss="modal" aria-label="Close"><i class="fas fa-2x fa-times" style="color: red;"></i></button>
+
+						<div class="container-fluid text-center">
+							<div class="row">
+								<div class="col-xs-12">
+									<h2 class="text-secondary mb-0" id="modalLabel">Todo List</h2>
+									<hr class="mb-5 col-xs-1 modal_hr" style="float: none; color: black;">
+									<div class="container-fluid">
+									<img class="img-fluid mb-5" src="assets/images/portfolio/Todo-list.png" alt="">
+								</div>
+									<p class="mb-5 modal_p">Users can create and track their daily tasks in an easy-to-use way. Todo list is first full-stack project
+										that uses Ruby On Rails for the back end and JavaScript and Handlebars.js on the front-end.</p>
+									<a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="https://github.com/yura85/todo-list-frontend">
+										<i class="fab fa-github"></i>
+										View On GitHub</a>
+										<a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="https://yura85.github.io/todo-list-frontend/">
+											<i class="fas fa-check-square"></i>
+											View App</a>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+				<!-- portfolio 4 -->
+				<div class="modal fade col-lg-8 col-xs-12 container-fluid" id="portfolio-modal-4" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+					<div class="portfolio-modal-dialog bg-white container-fluid col-xs-8">
+						<button type="button" class="close d-none d-md-block modal-close" data-dismiss="modal" aria-label="Close"><i class="fas fa-2x fa-times" style="color: red;"></i></button>
+
+						<div class="container-fluid text-center">
+							<div class="row">
+								<div class="col-xs-12">
+									<h2 class="text-secondary mb-0" id="modalLabel">Tic-Tac-Toe</h2>
+									<hr class="mb-5 col-xs-1 modal_hr" style="float: none; color: black;">
+									<div class="container-fluid">
+									<img class="img-fluid mb-5" src="assets/images/portfolio/Tit-Tac-Toe.png" alt="">
+								</div>
+									<p class="mb-5 modal_p">My implementation of this famous game. This SPA interacts with a RESTful Rails API to manage user and game data. Created with JavaScript, HTML, CSS, jQuery, AJAX.</p>
+									<a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="https://github.com/yura85/tic-tac-toe-client">
+										<i class="fab fa-github"></i>
+										View On GitHub</a>
+										<a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="https://yura85.github.io/tic-tac-toe-client/">
+											<i class="fas fa-bullseye"></i>
+											Play Game</a>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+		<!-- End of portfolio modal -->
+
+		<!-- Resume modal -->
+<div class="modal fade" id="modal-agreement">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-body">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<object type="application/pdf" data="assets/images/Resume.pdf" width="100%" height="500" style="height: 85vh;">No Support</object>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+	<!-- Javascript files -->
+
+	<script src="assets/js/jquery-1.11.1.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
+	<script src="assets/js/imagesloaded.pkgd.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+	<script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.easypiechart.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.cbpQTRotator.js"></script>
+	<script src="assets/js/custom.js"></script>
+
+</body>
 </html>
