@@ -108,6 +108,9 @@ h6 {
 	float: right;
 }
 .mypic {
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
 	float: left;
 	margin-right: 50px;
 }
